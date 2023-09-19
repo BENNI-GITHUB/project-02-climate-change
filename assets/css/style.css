@@ -1,40 +1,41 @@
+
 .light-theme {
     --background-primary: #ffffff;
     --background-secondary: #f5faff;
-
+  
     --background-image: url("../images/peter-burdon-Ekzf8kIKizQ-unsplash.jpg") center center / cover;
     --background-image1: url("../images/feature1-img-day.png") center center / contain;
     --background-image2: url("../images/feature2-img-day.png") center center / contain;
     --background-image3: url("../images/feature3-img-day.png") center center / contain;
     --action-primary: #d5e2f1;
     --action-secondary: #e7f0f8;
-
+  
     --foreground-primary: #232b39;
     --foreground-secondary: #697586;
     --foreground-tertiary: #a2b0c3;
-
+  
     --accent: #f6ad39;
-}
-
-.dark-theme {
+  }
+  
+  .dark-theme {
     --background-primary: #2d3748;
     --background-secondary: #1a212d;
-
+  
     --background-image: url("../images/peter-burdon-Ekzf8kIKizQ-unsplash-night.jpg") center center / cover;
     --background-image1: url("../images/feature1-img-night.png") center center / contain;
     --background-image2: url("../images/feature2-img-night.png") center center / contain;
     --background-image3: url("../images/feature3-img-night.png") center center / contain;
     --action-primary: #728197;
     --action-secondary: #2d3748;
-
+  
     --foreground-primary: #edf2f7;
     --foreground-secondary: #ccd6e0;
     --foreground-tertiary: #a0aec0;
-
+  
     --accent: #4364f9;
-}
-
-:root {
+  }
+  
+  :root {
     --white: #ffffff;
     --fs-base: 0.85rem;
     --fs-1: 1.875rem;
@@ -43,116 +44,126 @@
     --fs-4: 0.875rem;
     --fs-5: 0.75rem;
     --py: 5rem;
-}
-
-*,
-*::before,
-*::after {
+  }
+  
+  *,
+  *::before,
+  *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-a {
+  }
+  
+  a {
     text-decoration: none;
-}
-
-li {
+  }
+  
+  li {
     list-style: none;
-}
-
-img {
+  }
+  
+  img {
     max-width: 100%;
-}
-
-img,
-button {
+  }
+  
+  img,
+  button {
     display: block;
-}
-
-a,
-span {
+  }
+  
+  a,
+  span {
     display: inline-block;
-}
-
-button {
+  }
+  
+  button {
     font: inherit;
     border: none;
     background: none;
     cursor: pointer;
-}
-
-html {
+  }
+  
+  html {
     font-family: "Inter", sans-serif;
-    font-size: var(--fs-4);
+    font-size: var(--fs-base);
     line-height: 1.8;
-}
-
-.h1,
-.h2,
-.h3,
-.h4 {
+  }
+  
+  :focus {
+    outline-offset: 4px;
+  }
+  
+  .h1,
+  .h2,
+  .h3,
+  .h4 {
     display: block;
     color: var(--foreground-primary);
-}
+  }
 
-.h1 {
+  .h1 {
     font-size: var(--fs-1);
     font-weight: 900;
-}
+  }
 
-.h2 {
+  .h2 {
     font-size: var(--fs-2);
     font-weight: 700;
-}
+  }
 
-.h3 {
+  .h3 {
     font-size: var(--fs-3);
     font-weight: 700;
-}
+  }
 
-.h4 {
+  .h4 {
     font-size: var(--fs-4);
     font-weight: 700;
-}
+  }
 
-.container {
+  .text-sm {
+    font-size: var(--fs-4);
+  }
+
+  .text-tiny {
+    font-size: var(--fs-5);
+  }
+  
+  .container {
     padding: 0 15px;
     margin-inline: auto;
-    margin: auto;
-}
-
-.btn {
-    min-width: 160px;
+    margin: auto; 
+  }
+  
+  .btn {
+    min-width: 10rem;
     border-radius: 100px;
     text-align: center;
     transition: all 0.2s;
-}
+  }
 
-.btn-primary {
+  .btn-primary {
     background: var(--accent);
     color: var(--white);
-    padding: 9px 18px;
-}
+    padding: 0.6rem 1.2rem;
+  }
 
-.btn-primary:hover {
+  .btn-primary:hover {
     background: var(--foreground-secondary);
     color: var(--action-primary);
-}
+  }
 
-.btn-secondary {
+  .btn-secondary {
     background: var(--action-secondary);
     color: var(--foreground-secondary);
-    padding: 9px 18px;
+    padding: 0.6rem 1.2rem;
     border: 3px solid var(--foreground-tertiary);
-}
-
-.btn-secondary:hover {
+  }
+  
+  .btn-secondary:hover {
     color: var(--accent);
     border-color: var(--accent);
-}
-
-
+  }
 
 /*  HEADER */
 header {
