@@ -1,0 +1,447 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-color { 
+	background: #070f4e; 
+}
+	
+.second-color { 
+	background: #2772db; 
+}
+
+.third-color { 
+	background: #3ab1c8; 
+}
+
+.forth-color { 
+	background: #f5ebeb; 
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    background: url('https://source.unsplash.com/1600x900/?" + climate + "') no-repeat; 
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.intro-container {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    background-color: #f9f9f9ba;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.intro-heading{
+    text-align: center;
+    border-bottom: #777;
+    padding: 10px;
+}
+
+.intro-items{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hr-line{
+    width: 60%;
+    margin: auto; 
+}
+
+.intro-page {
+    color: #444;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 100%;
+    transition: 0.4s;
+    text-align: left;
+}
+
+.intro-body{
+    width: 100%; 
+    padding-left: 10%;
+    text-align: left;
+    border-radius: 20px; 
+}
+
+.intro-body li,
+.intro-body ul,
+.intro-body p{
+    margin-left: 30px;
+    font-size: 19px;    
+}
+
+.intro-item{
+    border-radius: 20px; 
+}
+
+.active,
+.intro-item:hover {
+    background-color: #f9f9f9bb;
+}
+
+.intro-body {
+    padding: 0 18px;
+    background-color: transparent;
+    display: none;
+    overflow: hidden;
+}
+
+.intro-item:before {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: left;
+    margin-right: 5px;
+    margin-top: 40px;
+}
+
+.active:before {
+    content: "\2796";
+}
+
+.color-red {
+    color: red;
+    background-color: red;
+}
+
+.luck {
+    font-size: 21px;
+    margin-top: 10px;
+}
+
+.display-none {
+    display: none;
+    visibility: hidden;
+}
+
+.display-block {
+    display: block;
+}
+
+.quiz-container {
+    width: 700px;
+    height: auto;
+    background-color: #f5ebebea;
+    position: absolute;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    border: 4px solid #2772db;
+    padding-top: 60px;
+    
+}
+
+.timer-box {
+    width: 101px;
+    height: 101px;
+    background-color: #2772db;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+#countdown {
+    position: absolute;
+    margin: auto;
+    margin-top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+  
+#countdown_number {
+    color: #f5ebeb;
+    display: inline-block;
+    line-height: 95px;
+    font-size: 40px;
+    font-family: "Orbitron" , sans-serif;
+}
+  
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(-180deg) rotateZ(-90deg);
+}
+
+.show{
+    box-shadow:  0 0 9px 3px #2772db;;
+    color: white;
+}
+
+svg circle {
+    stroke-dasharray: 314px;
+    stroke-dashoffset: 0px;
+    stroke-linecap: round;
+    stroke-width: 5px;
+    stroke: #f5ebeb;
+    fill: none;
+    animation: countdown 20s linear infinite forwards;
+    
+}
+  
+@keyframes countdown {
+    from {
+      stroke-dashoffset: 0px;
+      stroke: #f5ebeb;
+    }
+    to {
+      stroke-dashoffset: 314px;
+      stroke: #f98585;
+    }
+}
+
+.quiz-title{
+    padding-bottom: 20px;
+    font-family: "Work" , sans-serif;
+}
+
+.question-txt {
+    padding: 10px;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    height: auto;
+    border: 2px solid #2772db;
+    border-radius: 10px;
+    color: #070f4e;
+    text-align: left;
+    background: aliceblue;
+}
+
+.options {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.option {
+    width: 70%;
+    max-width: 70%;
+    display: flex;
+    flex-direction: row;
+    background: aliceblue;
+    border: 1px solid #2772db;
+    border-radius: 5px;
+    padding: 8px 25px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+.icon{
+    min-height: 26px;
+    min-width: 26px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 13px;
+    line-height: 24px;
+    pointer-events: none;
+}
+
+.tick{
+    color: #23903c;
+    border-color: #23903c;
+    background: #d4edda;
+}
+
+.icon.cross{
+    color: #a42834;
+    background: #f8d7da;
+    border-color: #a42834;
+}
+
+.correct{
+    color: #155724;
+    background: #d4edda;
+    border-color: #155724;
+}
+
+.incorrect{
+    color: #721c24;
+    background: #f8d7da;
+    border-color: #721c24;
+}
+
+.disabled{
+    pointer-events: none;
+}
+
+.option:hover{
+    color: #f8d7da;
+    background: #2772db;
+    border: 1px solid #b8daff;
+    box-shadow: 0px 0px 5px 0px #0013ff;
+    font-weight: bolder;
+}
+
+.quiz-container footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 15px 45px;
+    background-color: #dfdbdbea;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-top: 5px;
+}
+
+.question-status span{
+    margin-top: 3px;
+    user-select: none;
+    display: flex;
+}
+
+.question-status p{
+     font-weight: 500;
+     padding: 0 5px; 
+     color: #444;
+}
+
+.quiz-container footer button{
+    height: 40px;
+    padding: 0 13px;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #2772db;
+    border: 1px solid #f8d7da;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.quiz-container footer button:hover{
+    background: #0263ca;
+}
+
+.container-result {
+    width: 500px;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #dfdbdbea;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.progress-container {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 20px auto;
+}
+
+.progress-circle {
+    width: 100%;
+    height: 100%;
+    background: conic-gradient(#3498db 0%,
+            #3498db 50%,
+            #f0f0f0 50%,
+            #f0f0f0 100%);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.progress-text {
+    width: 75px;
+    height: 75px;
+    background-color: #163a89;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 75px;
+    color: #dfdbdb;
+}
+
+.score-text {
+    font-size: 22px;
+}
+
+@media screen and (max-width:767px) {
+    .intro-page {
+        font-size: 20px;
+    }
+    body {
+        height: auto;
+        padding: 50px 20px 20px;
+        background: url('https://source.unsplash.com/900x1600/?" + climate + "') no-repeat;
+        
+    }
+    .intro-body p,
+    .intro-body li {
+        font-size: 17px;
+    }
+
+    .quiz-container {
+        width: 350px;
+        height: auto;
+        margin-top: 100px;
+    }
+    .intro-container {
+        display: flex;
+        flex-flow: column;
+        text-align: center;        
+    }
+    .option {
+        width: 90%;
+        max-width: 90%;  
+    }
+    .container-result {
+        width: 100%;
+        height: auto;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #dfdbdbea;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        border-radius: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
