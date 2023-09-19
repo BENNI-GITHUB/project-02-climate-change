@@ -41,3 +41,16 @@ const btnReadMore = (btn) => {
     Allcontent.querySelector(".more").classList.toggle("hide");
     btn.textContent == "Read More" ? btn.textContent = "Read Less" : btn.textContent = "Read More";
 };
+
+
+const donate = document.querySelector("#donation")
+const donateOpenFunction = () => {
+  donate.style.display = "block";
+}
+const donateCloseFunction = () => {
+  donate.style.display = "none"
+}
+const donateBtn = document.querySelector("#donate_btn");
+const donateClose = document.querySelector("#donate_close");
+donateBtn.addEventListener("click", donateOpenFunction);
+donateClose.addEventListener("click", donateCloseFunction);

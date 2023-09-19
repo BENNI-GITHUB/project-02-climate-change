@@ -329,6 +329,74 @@ main {
     margin-right: 15px;
 }
 
+.donation {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  display: none;
+}
+
+.donation-box {
+  background-color: var(--background-secondary);
+  color: var(--foreground-primary);
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  width: 500px;
+}
+
+.donation-box p {
+  margin-bottom: 20px;
+}
+
+.donation-box .close-box {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.donation-box .close-box i {
+  font-size: 25px;
+}
+
+.donation-box .close-box i:hover {
+  text-shadow: 0 0 2px var(--accent);
+}
+.donation-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.donation-form label {
+  font-weight: bold;
+  margin-top: 10px; 
+}
+
+.donation-form input[type="number"],
+.donation-form input[type="text"],
+.donation-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.donation-form button {
+  margin-top: 20px;
+}
+
 .blog {
     display: flex;
     flex-direction: row;
@@ -669,10 +737,15 @@ footer b {
     .navbar {
       padding: 30px 0;
     }
+
     .people-box-container {
       flex-direction: column;
     }
     
+    .donation-box {
+      max-width: 300px;
+    } 
+
     .people-box {
       max-width: 100%;
       height: 300px;
