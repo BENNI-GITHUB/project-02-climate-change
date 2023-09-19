@@ -325,8 +325,10 @@ main {
     padding: 30px 0;
 }
 
-.back-text .text-btn a {
-    margin-right: 15px;
+.back-text .text-btn a,
+.back-text .text-btn button{
+  margin-right: 15px;
+  display: inline-block;
 }
 
 .donation {
