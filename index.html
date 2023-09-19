@@ -290,12 +290,12 @@
         </div>
         <form action="https://formdump.codeinstitute.net/" method="post" class="contact-form">
             <div class="input-container">
-                <input type="text" placeholder="Your Name" />
-                <input type="email" placeholder="Your Email" />
-                <input type="tel" placeholder="Your Phone" />
-                <input type="text" placeholder="Subject" />
+                <input name="Name" type="text" placeholder="Your Name" />
+                <input name="Email" type="email" placeholder="Your Email" />
+                <input name="Contact Number" type="tel" placeholder="Your Phone" />
+                <input name="Subject" type="text" placeholder="Subject" />
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Write your message"></textarea>
+            <textarea name="Description" cols="30" rows="10" placeholder="Write your message"></textarea>
             <button class="btn btn-primary">Submit Now</button>
         </form>
     </section>
@@ -322,7 +322,7 @@
             <h3 class="title">Subscribe To Our <b>Newsletter</b></h3>
             <p>Stay informed about the latest news about climate change by subscribing to our newsletter</p>
             <form action="https://formdump.codeinstitute.net/" method="post" class="newsletter-input">
-                <input type="email" placeholder="Write your email here..." />
+                <input name="Email for subscribing" type="email" placeholder="Write your email here..." />
                 <button aria-label="Subscribe">
                     <i class="bx bx-mail-send"></i>
                 </button>
@@ -333,5 +333,8 @@
     <p class="behnam">Designed and Developed by <cite><b>Behnam Pordavam</b></cite> Sep-2023</p>
 </footer>
 
+<script src="assets/js/script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
