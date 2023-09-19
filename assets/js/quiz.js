@@ -16,6 +16,7 @@ const timerContainer = document.querySelector("#countdown");
 const resultBox = document.querySelector("#result");
 const resultRestart = document.querySelector("#quiz_restart");
 const resultExit = document.querySelector("#result_exit");
+let buttonEnabled = true;
 
 for (let i = 0; i < introPage.length; i++) {
     introPage[i].addEventListener("click", function () {
@@ -31,8 +32,8 @@ for (let i = 0; i < introPage.length; i++) {
 
 exitBtn.onclick = () => {
     if (confirm("You pressed the exit button, Do you want to continue?!") == true) {
-        close("quiz.html");
-        open("index.html");
+        
+        location.href = "index.html";
     };
 };
 
@@ -78,12 +79,19 @@ function showNextQuestion() {
         quizBox.classList.add("display-none");
         resultBox.classList.remove("display-none");
         showResult();
+    } 
+}
+
+
+function goToNextQuestion(){
+    console.info(buttonEnabled);
+    if (buttonEnabled === true){
+        showNextQuestion();
     }
 }
 
-nextQuestion.onclick = () => {
-    showNextQuestion();
-};
+nextQuestion.onclick = goToNextQuestion;
+
 
 function queCounter(item) {
     const questionStatus = quizBox.querySelector("#questionStatus");
@@ -121,7 +129,12 @@ function optionSelected(answer) {
         optionItems.children[i].classList.add("disabled");
     }
     nextQuestion.classList.add("show");
-    setTimeout(showNextQuestion, 2000)
+    buttonEnabled = false;
+    setTimeout(()=>{
+        showNextQuestion();
+        buttonEnabled = true;
+    }
+    , 2000)
 };
 
 let countdown = 20;
@@ -134,7 +147,11 @@ const counterTime = () => {
             let correctAnswer = questions[questionCounter].answer;
             const allOptions = optionItems.children.length;
             nextQuestion.classList.add("show");
-            setTimeout(showNextQuestion, 2000);
+            buttonEnabled = false;
+            setTimeout(()=>{
+                showNextQuestion();
+                buttonEnabled = true;
+            }, 2000);
 
             for (i = 0; i < allOptions; i++) {
                 if (optionItems.children[i].textContent == correctAnswer) {
@@ -200,12 +217,11 @@ function showResult() {
     updateProgress();
     
     resultExit.onclick = () => {
-        open("index.html");
-        close("quiz.html");
+        location.href = "index.html";
+
     };
     resultRestart.onclick = () => {
-        close("quiz.html");
-        open("quiz.html");
+        location.href = "quiz.html";
     };
 }
 
