@@ -189,7 +189,7 @@ function showResult() {
             scoreText.innerHTML = scoreTag;
         }
         else if (quizScore > 0) {  
-            let scoreTag = `<p>Good! You answered <span>${quizScore}</span> of <span>${questions.length}</span></p>`;
+            let scoreTag = `<p>Not Bad! You answered <span>${quizScore}</span> of <span>${questions.length}</span></p>`;
             scoreText.innerHTML = scoreTag;
         }
         else { 
