@@ -61,7 +61,7 @@
                                 <a href="#" class="nav-link">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Contact</a>
+                                <a href="#contact" class="nav-link">Contact</a>
                             </li>
                             <li class="nav-item">
                                 <a href="quiz.html" class="nav-link">Quiz</a>
@@ -73,13 +73,16 @@
                         <p class="h3 nav-title">Topics</p>
                         <ul>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">A</a>
+                                <a href="#change" class="nav-link">Causes of Climate Change</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">B</a>
+                                <a href="#impact" class="nav-link">Impacts of Climate Change on Children</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">C</a>
+                                <a href="#paris" class="nav-link">The Paris Agreement</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#what" class="nav-link">What can we do</a>
                             </li>
                         </ul>
                     </div>
@@ -104,7 +107,7 @@
     </section>
 
     <section class="container">
-        <div class="blog">
+        <div id="change" class="blog">
             <div class="blog-photo"></div>
             <div class="blog-content">
                 <h3 class="h3">Climate & Causes of Climate Change:</h3>
@@ -126,14 +129,13 @@
                         <li><b>Agriculture: </b> Agricultural practices, such as livestock farming and the use of
                             synthetic fertilizers, release methane and nitrous oxide, potent greenhouse gases.</li>
                     </ul>
-
                 </div>
                 <button class="btn-more" onclick="btnReadMore(this)">Read More</button>
             </div>
         </div>
-        <div class="blog blog2">
+        <div id="impact" class="blog blog2">
             <div class="blog-content">
-                <h3 class="h3">Climate & Causes of Climate Change:</h3>
+                <h3 class="h3">Impacts of Climate Change on Children:</h3>
                 <div class="contents">
                     <p>Children's health is a critical concern in the context of climate change, and proactive efforts
                         are essential to protect their well-being in a changing climate.Climate change poses significant
@@ -155,13 +157,12 @@
                             making it difficult for communities, particularly children, to access clean and safe
                             drinking water.</li>
                     </ul>
-
                 </div>
                 <button class="btn-more" onclick="btnReadMore(this)">Read More</button>
             </div>
             <div class="blog-photo blog-photo2"></div>
         </div>
-        <div class="blog">
+        <div id="paris" class="blog">
             <div class="blog-photo blog-photo3"></div>
             <div class="blog-content">
                 <h3 class="h3">The Paris Agreement:</h3>
@@ -287,7 +288,7 @@
                 </ul>
             </div>
         </div>
-        <form action="" class="contact-form">
+        <form action="https://formdump.codeinstitute.net/" method="post" class="contact-form">
             <div class="input-container">
                 <input type="text" placeholder="Your Name" />
                 <input type="email" placeholder="Your Email" />
@@ -320,12 +321,12 @@
         <div class="newsletter footer-box">
             <h3 class="title">Subscribe To Our <b>Newsletter</b></h3>
             <p>Stay informed about the latest news about climate change by subscribing to our newsletter</p>
-            <div class="newsletter-input">
+            <form action="https://formdump.codeinstitute.net/" method="post" class="newsletter-input">
                 <input type="email" placeholder="Write your email here..." />
                 <button aria-label="Subscribe">
                     <i class="bx bx-mail-send"></i>
                 </button>
-            </div>
+            </form>
         </div>
     </div>
     <hr>
