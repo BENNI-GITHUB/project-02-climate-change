@@ -1,5 +1,4 @@
 .light-theme {
-
     --background-primary: #ffffff;
     --background-secondary: #f5faff;
 
@@ -35,16 +34,16 @@
     --accent: #4364f9;
 }
 
-
 :root {
     --white: #ffffff;
-    --fs-1: 30px;
-    --fs-2: 24px;
-    --fs-3: 20px;
-    --fs-4: 14px;
-    --fs-5: 12px;
+    --fs-base: 0.85rem;
+    --fs-1: 1.875rem;
+    --fs-2: 1.5rem;
+    --fs-3: 1.25rem;
+    --fs-4: 0.875rem;
+    --fs-5: 0.75rem;
+    --py: 5rem;
 }
-
 
 *,
 *::before,
