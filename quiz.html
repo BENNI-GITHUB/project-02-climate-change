@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/quiz.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+        type="text/css" />
+    <title>Quiz</title>
+</head>
+
+<body>
+    <main id="intro_container" class="intro-container container">
+        <h1 class="intro-heading">About the Quiz!</h1>
+        <section class="intro-items">
+            <div class="intro-one intro-item">
+                <h3 class="intro-page">What is the purpose of this quiz?</h3>
+                <div class="intro-body">
+                    <p>This quiz can be a fun and engaging way to educate people about the various aspects of climate
+                        change, including its causes, consequences, and potential solutions. They can help individuals
+                        become more informed and aware of the pressing issues related to climate change.</p>
+                </div>
+            </div>
+
+            <hr class="hr-line">
+            <div class="intro-two intro-item">
+                <h3 class="intro-page">What are the rules of the quiz?</h3>
+                <ul class="intro-body">
+                    <li class="intro-list">There are 10 questions with multiple choices in this quiz</li>
+                    <li class="intro-list">You will have only <span>20 seconds </span> per each question.</li>
+                    <li class="intro-list">Once you selected your answer, you can't reselect.</li>
+                    <li class="intro-list">You can't select any option once time goes off.</li>
+                    <li class="intro-list">You can't exit from the Quiz while you're playing.</li>
+                    <li class="intro-list">You'll get points on the basis of your correct answers.</li>
+                </ul>
+            </div>
+
+            <hr class="hr-line">
+            <div class="intro-three intro-item">
+                <h3 class="intro-page">What if some of your answers were wrong?</h3>
+                <div class="intro-body">
+                    <p>Dont Worry about that! We suggest you to read and research more about those issues.</p>
+                </div>
+            </div>
+        </section>
+
+        <p class="luck">Good luck!</p>
+        <div class="intro-buttons">
+            <button id="quiz_start" class="btn btn-primary btn-lg quiz-start">Start Quiz</button>
+            <button class="btn btn-danger btn-lg quiz-exit">Exit Quiz</button>
+        </div>
+    </main>
+
+    <section id="quiz_container" class="quiz-container display-none">
+        <div class="timer-box">
+            <div id="countdown">
+                <div id="countdown_number">20</div>
+                <svg id="timer_round">
+                    <circle r="48" cx="50" cy="50" id="circle"></circle>
+                </svg>
+            </div>
+        </div>
+        <h5 class="quiz-title">Select the correct answer</h5>
+        <section>
+            <div class="question-txt" id="question_txt"></div>
+            <div class="options" id="options"></div>
+        </section>
+        <footer>
+            <div class="question-status" id="questionStatus">
+            </div>
+            <button id="next_question" class="next-btn">Next Question</button>
+        </footer>
+    </section>
+
+    <section id="result" class="container-result display-none">
+        <h2>Quiz Result</h2>
+        <p class="">You've completed the Quiz!</p>
+        <div class="progress-container">
+            <div class="progress-circle"></div>
+            <div class="progress-text" id="percentage">0%</div>
+        </div>
+        <div class="score-text" id="score_text"></div>
+        <div class="buttons">
+            <button id="quiz_restart" class="btn btn-primary btn-lg quiz-start">Start Again</button>
+            <button id="result_exit" class="btn btn-danger btn-lg quiz-exit">Exit Quiz</button>
+        </div>
+    </section>
+
+    <script src="assets/js/questions.js"></script>
+    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+    <script src="assets/js/quiz.js"></script>
+</body>
