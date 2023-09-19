@@ -1,7 +1,7 @@
 const nav = document.querySelector(".mobile-nav"),
     navMenuButton = document.querySelector(".nav-menu-btn"),
     navCloseButton = document.querySelector(".nav-close-btn"),
-    navLinks = document.querySelectorAll(".nav-link");
+    navLinks = document.querySelectorAll(".nav-link-mob");
 
 const navToggleFunction = () => nav.classList.toggle("active");
 navMenuButton.addEventListener("click", navToggleFunction);
