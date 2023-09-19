@@ -26,7 +26,7 @@ for (let i = 0; i < themeBtn.length; i++) {
 
 
 
-let noOfCharc = 395;
+let noOfCharc = 400;
 let contents = document.querySelectorAll(".contents");
 
 contents.forEach(content => {
