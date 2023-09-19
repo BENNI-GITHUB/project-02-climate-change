@@ -1,7 +1,7 @@
 const nav = document.querySelector(".mobile-nav"),
     navMenuButton = document.querySelector(".nav-menu-btn"),
     navCloseButton = document.querySelector(".nav-close-btn"),
-    navLinks = document.querySelectorAll("nav-link");
+    navLinks = document.querySelectorAll(".nav-link");
 
 const navToggleFunction = () => nav.classList.toggle("active");
 navMenuButton.addEventListener("click", navToggleFunction);
@@ -9,6 +9,7 @@ navCloseButton.addEventListener("click", navToggleFunction);
 navLinks.forEach(navLink => {
     navLink.addEventListener("click", navToggleFunction);
 })
+
 const themeBtn = document.querySelectorAll(".theme-btn");
 
 for (let i = 0; i < themeBtn.length; i++) {
