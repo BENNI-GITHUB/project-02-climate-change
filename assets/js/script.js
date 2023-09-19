@@ -42,6 +42,8 @@ const btnReadMore = (btn) => {
     btn.textContent == "Read More" ? btn.textContent = "Read Less" : btn.textContent = "Read More";
 };
 
+const donateBtn = document.querySelector("#donate_btn");
+const donateClose = document.querySelector("#donate_close");
 
 const donate = document.querySelector("#donation")
 const donateOpenFunction = () => {
@@ -50,7 +52,5 @@ const donateOpenFunction = () => {
 const donateCloseFunction = () => {
   donate.style.display = "none"
 }
-const donateBtn = document.querySelector("#donate_btn");
-const donateClose = document.querySelector("#donate_close");
 donateBtn.addEventListener("click", donateOpenFunction);
 donateClose.addEventListener("click", donateCloseFunction);
