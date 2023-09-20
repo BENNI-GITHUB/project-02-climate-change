@@ -147,7 +147,8 @@ Wireframes were produced using Balsamiq.
 
 ### Home Page
 ##### The landing page of the website has some features:
- - The Navigations which leads to the proper destination, and the theme button which can shift the theme from light mode to dark mode and vice versa. 
+ - The Navigations which leads to the proper destination.
+ - The theme button which can shift the theme from light mode to dark mode and vice versa. 
  ![Light mode of Landing Page](readme/light-mode.jpg)
  ![Dark mode of Landing Page](readme/dark-mode.jpg)
  - The main page include 2 buttons which open the quiz page and donation box.
