@@ -50,11 +50,13 @@ const donateOpenFunction = () => {
   donate.style.display = "block";
   document.querySelector("main").style.opacity = ".3"
   document.querySelector("header").style.opacity = ".3"
+  document.querySelector("footer").style.opacity = ".3"
 }
 const donateCloseFunction = () => {
   donate.style.display = "none"
   document.querySelector("main").style.opacity = "1"
   document.querySelector("header").style.opacity = "1"
+  document.querySelector("footer").style.opacity = "1"
 }
 donateBtn.addEventListener("click", donateOpenFunction);
 donateClose.addEventListener("click", donateCloseFunction);
