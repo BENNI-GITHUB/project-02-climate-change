@@ -154,26 +154,24 @@ Wireframes were produced using Balsamiq.
  - The main page include 2 buttons which open the quiz page and donation box.
  ![Donate Box](readme/donate.jpg)
  - The contents of the website are put in three sections and for good appearance they are used by Read More/Read Less buttons to make a better UX. 
+ ![Read More view](readme/donate.jpg)
 
+### How to take the Quiz
+  - As soon as the user enter to the quiz area the introduction page shows up and the user can read the purpose of the quiz and the instruction to take the quiz properly.
+  - User can expand the contents to read each part.
+  - The Introduction box has two buttons to let the user choose between start the quiz or quit it. by choose quit a window appears to confirm the user's decision and by pressing the 'start quiz' button the question box shows up immediately.
+  ![Instructions](readme/about-quiz.jpg)
 
 ### Quiz Page
 ##### The Quiz page of the website has some features:
- - The quiz page opens with an introduction box and user can expand the contents to read each part. 
- - The Introduction box has two buttons to let the user choose between start the quiz or quit it. by choose quit a window appears to confirm the user's decision and by pressing the 'start quiz' button the question box shows up immediately.
- - The question box has time counter and it drops down from 20 to zero. 
- - User has one fortune to choose the right answer and after the choosing the answer the right answer change to green color and if the answer was wrong the option become red. 
- - Next question will appear after the time reach to zero or the user press the next question button or 2 seconds after choosing the answer.
- - The smile or sad Icon will be shown as soon as the user choose the answer. 
- - At the end user can figure out the score and read the quotes according to the score he got. 
- - User has option to restart the quiz or quit it.  
-
+  - The question box has time counter and it drops down from 20 to zero. 
+  - User has one fortune to choose the right answer and after the choosing the answer the right answer change to green color and if the answer was wrong the option become red. 
+  - Next question will appear after the time reach to zero or the user press the next question button or 2 seconds after choosing the answer.
+  - The smile or sad Icon will be shown as soon as the user choose the answer. 
+  - At the end user can figure out the score and read the quotes according to the score he got. 
+  - User has option to restart the quiz or quit it.  
  ![Landing Page](readme/quiz.jpg)
 
-### How to take the Quiz
-
-As soon as the user enter to the quiz area the introduction page shows up and the user can read the purpose of the quiz and the instruction to take the quiz properly.
-
-![Instructions](readme/about-quiz.jpg)
 
 ### Scores
 
