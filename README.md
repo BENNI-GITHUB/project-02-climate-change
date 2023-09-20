@@ -122,25 +122,25 @@ Wireframes were produced using Balsamiq.
  <details>
  <summary>Desktop Wireframe of main Page</summary>
 
-![Desktop Wireframe](wireframes/main-desktop-wireframe.jpg)
+![Desktop Wireframe](main-desktop-wireframe.jpg)
  </details>
 
  <details>
     <summary>Mobile Wireframe of main Page</summary>
 
-![Mobile Wireframe](wireframes/main-mobile-wireframe.jpg)
+![Mobile Wireframe](main-mobile-wireframe.jpg)
  </details>
 
  <details>
  <summary>Desktop Wireframe of quiz Page</summary>
 
-![Desktop Wireframe](wireframes/quiz-desktop-wireframe.jpg)
+![Desktop Wireframe](quiz-desktop-wireframe.jpg)
  </details>
 
  <details>
     <summary>Mobile Wireframe of quiz Page</summary>
 
-![Mobile Wireframe](wireframes/quiz-mobile-wireframe.jpg)
+![Mobile Wireframe](quiz-mobile-wireframe.jpg)
  </details>
 
 ## Features
