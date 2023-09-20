@@ -5,9 +5,9 @@ Visit our quiz page to test your knowledge about climate change and sustainabili
 
 The live link can be found here - [Climate Change](https://benni-github.github.io/project-02-climate-change/)
 
-![Climate Change Am I Responsive Image](docs/readme/site-view.jpg)
+![Climate Change Am I Responsive Image](readme/site-view.jpg)
 
-![Quiz Am I Responsive Image](docs/readme/site-view2.jpg)
+![Quiz Am I Responsive Image](readme/site-view2.jpg)
 
 Table of Contents
 
@@ -85,15 +85,15 @@ The imagery and color scheme of the site were both given careful consideration t
 The color schemes of the site changes according to the selected theme. 
 
 ##### Light theme color palette from Colors:
-![color Palette1](docs/readme/day-pallet.jpg)
+![color Palette1](readme/day-pallet.jpg)
 - The light theme provides a clean and vibrant appearance, with a white background and contrasting dark text. It offers a fresh and welcoming feel, suitable for general content and information presentation.
 
 ##### Dark theme color palette from Colors
-![color Palette1](docs/readme/night-pallet.jpg)
+![color Palette1](readme/night-pallet.jpg)
 - The dark theme creates an elegant and visually appealing atmosphere with a dark background and light text. It reduces eye strain in low-light environments and provides a modern, sleek look for users who prefer darker interfaces.
 
 ##### Quiz theme color palette from Colors
-![color Palette1](docs/readme/quiz-pallet.jpg)
+![color Palette1](readme/quiz-pallet.jpg)
 - The color scheme for our quiz page aims to be engaging and user-friendly. It uses bright, contrasting colors against a light pink background to make the quiz questions and options stand out, ensuring a pleasant and interactive experience for users.
 - using green and red color for the right and wrong answers is a common way to notice the user about the result of question intuitively according to user experience format.
 
@@ -122,25 +122,25 @@ Wireframes were produced using Balsamiq.
  <details>
  <summary>Desktop Wireframe of main Page</summary>
 
-![Desktop Wireframe](docs/wireframes/main-desktop-wireframe.jpg)
+![Desktop Wireframe](wireframes/main-desktop-wireframe.jpg)
  </details>
 
  <details>
     <summary>Mobile Wireframe of main Page</summary>
 
-![Mobile Wireframe](docs/wireframes/main-mobile-wireframe.jpg)
+![Mobile Wireframe](wireframes/main-mobile-wireframe.jpg)
  </details>
 
  <details>
  <summary>Desktop Wireframe of quiz Page</summary>
 
-![Desktop Wireframe](docs/wireframes/quiz-desktop-wireframe.jpg)
+![Desktop Wireframe](wireframes/quiz-desktop-wireframe.jpg)
  </details>
 
  <details>
     <summary>Mobile Wireframe of quiz Page</summary>
 
-![Mobile Wireframe](docs/wireframes/quiz-mobile-wireframe.jpg)
+![Mobile Wireframe](wireframes/quiz-mobile-wireframe.jpg)
  </details>
 
 ## Features
@@ -148,10 +148,10 @@ Wireframes were produced using Balsamiq.
 ### Home Page
 ##### The landing page of the website has some features:
  - The Navigations which leads to the proper destination, and the theme button which can shift the theme from light mode to dark mode and vice versa. 
- ![Light mode of Landing Page](docs/readme/light-mode.jpg)
- ![Dark mode of Landing Page](docs/readme/dark-mode.jpg)
+ ![Light mode of Landing Page](readme/light-mode.jpg)
+ ![Dark mode of Landing Page](readme/dark-mode.jpg)
  - The main page include 2 buttons which open the quiz page and donation box.
- ![Donate Box](docs/readme/donatee.jpg)
+ ![Donate Box](readme/donatee.jpg)
  - The contents of the website are put in three sections and for good appearance they are used by Read More/Read Less buttons to make a better UX. 
 
 
@@ -166,13 +166,13 @@ Wireframes were produced using Balsamiq.
  - At the end user can figure out the score and read the quotes according to the score he got. 
  - User has option to restart the quiz or quit it.  
 
- ![Landing Page](docs/readme/quiz.jpg)
+ ![Landing Page](readme/quiz.jpg)
 
 ### How to take the Quiz
 
 As soon as the user enter to the quiz area the introduction page shows up and the user can read the purpose of the quiz and the instruction to take the quiz properly.
 
-![Instructions](docs/readme/about-quiz.jpg)
+![Instructions](readme/about-quiz.jpg)
 
 ### Scores
 
@@ -183,7 +183,7 @@ The score of the quiz calculated according to percentage basis. and the user wil
 - For equal or higher than 10% : Not bad! You answered (right answers amount) of 10.
 - If 0% : Sorry! You Couldn't answer any of the questions.
 
-![Scores](docs/readme/result-quiz.jpg)
+![Scores](readme/result-quiz.jpg)
 
 
 ## Testing
@@ -198,7 +198,7 @@ The score of the quiz calculated according to percentage basis. and the user wil
 - #### Javascript
     - No errors or warnings were returned when passing through the the [JSHint Validator](https://jshint.com/)
 
-  ![JSHint Validator Results](docs/readme/jsvalidator.jpg)
+  ![JSHint Validator Results](readme/jsvalidator.jpg)
   
 
 ### Button Testing
@@ -251,7 +251,7 @@ There are no known bugs.
 - [Am I Responsive](http://ami.responsivedesign.is/) - Used to verify responsiveness of website on different devices.
 - [Responsinator](http://www.responsinator.com/) - Used to verify responsiveness of website on different devices.
 - [Balsamiq](https://balsamiq.com/) - Used to generate Wireframe images.
-- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Used for overall development and tweaking, including testing responsiveness and performance.
+- [Chrome Dev Tools](https://developer.chrome.com/devtools/) - Used for overall development and tweaking, including testing responsiveness and performance.
 - [Boxicons](https://boxicons.com//) - Used for icons in main page.
 - [Font Awesome](https://fontawesome.com/) - Used for icons in quiz page.
 - [GitHub](https://github.com/) - Used for version control and hosting.
@@ -291,7 +291,7 @@ To clone this repository follow the below steps:
 ## Credits
 
 ### Content
-- The Questions are provided from Unicef [Quiz](docs/readme/Climate-Change-Quiz-with-answers.pdf)
+- The Questions are provided from Unicef [Quiz](readme/Climate-Change-Quiz-with-answers.pdf)
 - According to the questions I used ChatGPT to create the relevant contents for the main page. 
 
 ### Media
