@@ -154,7 +154,7 @@ Wireframes were produced using Balsamiq.
  - The main page include 2 buttons which open the quiz page and donation box.
  ![Donate Box](readme/donate.jpg)
  - The contents of the website are put in three sections and for good appearance they are used by Read More/Read Less buttons to make a better UX. 
- ![Read More view](readme/donate.jpg)
+ ![Read More view](readme/readmore.jpg)
 
 ### How to take the Quiz
   - As soon as the user enter to the quiz area the introduction page shows up and the user can read the purpose of the quiz and the instruction to take the quiz properly.
