@@ -17,7 +17,7 @@ Table of Contents
     + [Returning user](#returning-user)
   * [Design](#design)
     + [Imagery](#imagery)
-    + [color Scheme](#color-scheme)
+    + [Color Scheme](#color-scheme)
     + [Fonts](#fonts)
     + [Layout](#layout)
     + [Wireframes](#wireframes)
@@ -81,19 +81,19 @@ The imagery and color scheme of the site were both given careful consideration t
 - Given that the quiz page relates to climate change crisis, the background image is designed dynamicly. and by refreshing the page it changes with a new related photo. 
 - Some small images for 'what can we do' section used according to subject of the item.
 
-### color Schemes
+### Color Schemes
 The color schemes of the site changes according to the selected theme. 
 
 ##### Light theme color palette from Colors:
-![color Palette1](readme/day-pallet.jpg)
+![Color Palette1](readme/day-pallet.jpg)
 - The light theme provides a clean and vibrant appearance, with a white background and contrasting dark text. It offers a fresh and welcoming feel, suitable for general content and information presentation.
 
 ##### Dark theme color palette from Colors
-![color Palette1](readme/night-pallet.jpg)
+![Color Palette1](readme/night-pallet.jpg)
 - The dark theme creates an elegant and visually appealing atmosphere with a dark background and light text. It reduces eye strain in low-light environments and provides a modern, sleek look for users who prefer darker interfaces.
 
 ##### Quiz theme color palette from Colors
-![color Palette1](readme/quiz-pallet.jpg)
+![Color Palette1](readme/quiz-pallet.jpg)
 - The color scheme for our quiz page aims to be engaging and user-friendly. It uses bright, contrasting colors against a light pink background to make the quiz questions and options stand out, ensuring a pleasant and interactive experience for users.
 - using green and red color for the right and wrong answers is a common way to notice the user about the result of question intuitively according to user experience format.
 
@@ -292,7 +292,7 @@ To clone this repository follow the below steps:
 ## Credits
 
 ### Content
-- The Questions are provided from Unicef [Quiz](readme/Climate-Change-Quiz-with-answers.pdf)
+- The Questions are provided from [Unicef Quiz](readme/Climate-Change-Quiz-with-answers.pdf)
 - According to the questions I used ChatGPT to create the relevant contents for the main page. 
 
 ### Media
