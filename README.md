@@ -17,7 +17,7 @@ Table of Contents
     + [Returning user](#returning-user)
   * [Design](#design)
     + [Imagery](#imagery)
-    + [Color Scheme](#color-scheme)
+    + [Color Schemes](#color-schemes)
     + [Fonts](#fonts)
     + [Layout](#layout)
     + [Wireframes](#wireframes)
