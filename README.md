@@ -166,11 +166,15 @@ Wireframes were produced using Balsamiq.
 ##### The Quiz page of the website has some features:
   - The question box has time counter and it drops down from 20 to zero. 
   - User has one fortune to choose the right answer and after the choosing the answer the right answer change to green color and if the answer was wrong the option become red. 
+ ![Wrong Answer](readme/wrong-answer.jpg)
+ ![Right Answer](readme/right-answer.jpg)
+  - If the time for each question reach to zero the answer will be shown and after 2 second it goes to the next question.
+ ![Time out](readme/time-out.jpg)
   - Next question will appear after the time reach to zero or the user press the next question button or 2 seconds after choosing the answer.
   - The smile or sad Icon will be shown as soon as the user choose the answer. 
   - At the end user can figure out the score and read the quotes according to the score he got. 
   - User has option to restart the quiz or quit it.  
- ![Landing Page](readme/quiz.jpg)
+ ![Quiz Page](readme/quiz.jpg)
 
 
 ### Scores
