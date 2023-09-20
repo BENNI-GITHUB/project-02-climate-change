@@ -152,7 +152,7 @@ Wireframes were produced using Balsamiq.
  ![Light mode of Landing Page](readme/light-mode.jpg)
  ![Dark mode of Landing Page](readme/dark-mode.jpg)
  - The main page include 2 buttons which open the quiz page and donation box.
- ![Donate Box](readme/donatee.jpg)
+ ![Donate Box](readme/donate.jpg)
  - The contents of the website are put in three sections and for good appearance they are used by Read More/Read Less buttons to make a better UX. 
 
 
