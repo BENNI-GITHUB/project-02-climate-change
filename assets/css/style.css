@@ -777,7 +777,8 @@ footer b {
     }
     .main-page{
       flex-direction: column;
-      height: 100vh;
+      height: 900px;
+      margin-bottom: 0px;
     }
   
     .main-page .back-photo{
