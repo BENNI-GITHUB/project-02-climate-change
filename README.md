@@ -165,6 +165,7 @@ Wireframes were produced using Balsamiq.
 ### Quiz Page
 ##### The Quiz page of the website has some features:
   - The question box has time counter and it drops down from 20 to zero. 
+  ![Quiz Page](readme/quiz.jpg)
   - User has one fortune to choose the right answer and after the choosing the answer the right answer change to green color and if the answer was wrong the option become red. 
  ![Wrong Answer](readme/wrong-answer.jpg)
  ![Right Answer](readme/right-answer.jpg)
@@ -174,7 +175,7 @@ Wireframes were produced using Balsamiq.
   - The smile or sad Icon will be shown as soon as the user choose the answer. 
   - At the end user can figure out the score and read the quotes according to the score he got. 
   - User has option to restart the quiz or quit it.  
- ![Quiz Page](readme/quiz.jpg)
+ 
 
 
 ### Scores
