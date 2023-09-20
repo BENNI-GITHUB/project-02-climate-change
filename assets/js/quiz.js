@@ -197,12 +197,12 @@ function showResult() {
         if (quizScore == 10) {
             let scoreTag = `<p>Excellent ! You answered all the questions correctly</p>`;
             scoreText.innerHTML = scoreTag;
-        } else if (quizScore > 7) {
-            let scoreTag = `<p>Great! You answered <span>${quizScore}</span> of <span>${questions.length}</span></p>`;
+        } else if (quizScore > 6) {
+            let scoreTag = `<p>Well Done! You answered <span>${quizScore}</span> of <span>${questions.length}</span></p>`;
             scoreText.innerHTML = scoreTag;
         }
-        else if (quizScore > 4) { 
-            let scoreTag = `<p>Well Done! You answered <span>${quizScore}</span> of <span>${questions.length}</span></p>`;
+        else if (quizScore > 3) { 
+            let scoreTag = `<p>Good! You answered <span>${quizScore}</span> of <span>${questions.length}</span></p>`;
             scoreText.innerHTML = scoreTag;
         }
         else if (quizScore > 0) {  

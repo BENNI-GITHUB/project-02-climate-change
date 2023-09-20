@@ -2,7 +2,8 @@
 .light-theme {
     --background-primary: #ffffff;
     --background-secondary: #f5faff;
-  
+    --background-optional: #45433e;
+
     --background-image: url("../images/peter-burdon-Ekzf8kIKizQ-unsplash.jpg") center center / cover;
     --background-image1: url("../images/feature1-img-day.png") center center / contain;
     --background-image2: url("../images/feature2-img-day.png") center center / contain;
@@ -20,7 +21,8 @@
   .dark-theme {
     --background-primary: #2d3748;
     --background-secondary: #1a212d;
-  
+    --background-optional: #1b273e;
+
     --background-image: url("../images/peter-burdon-Ekzf8kIKizQ-unsplash-night.jpg") center center / cover;
     --background-image1: url("../images/feature1-img-night.png") center center / contain;
     --background-image2: url("../images/feature2-img-night.png") center center / contain;
@@ -589,8 +591,7 @@ textarea {
 }
 
 textarea::placeholder {
-    font-family: Arial, Helvetica, sans-serif;
-
+  font-family: 'Inter', sans-serif;
 }
 
 .contact-form button {
@@ -601,7 +602,7 @@ textarea::placeholder {
 footer {
     width: 100%;
     height: auto;
-    background-color: var(--foreground-tertiary);
+    background-color: var(--background-optional);
     padding: 30px 0 10px;
 }
 
