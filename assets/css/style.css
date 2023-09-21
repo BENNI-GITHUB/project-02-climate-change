@@ -267,14 +267,15 @@ header .btn-group {
   margin-bottom: 0.5rem;
 }
 
-.mobile-nav .nav-link {
-  font-size: var(--fs-3);
-  color: var(--foreground-secondary);
-  transition: all 0.2s;
+.mobile-nav .nav-link,
+.mobile-nav .nav-link-mob{
+font-size: var(--fs-3);
+color: var(--foreground-secondary);
+transition: all 0.2s;
 }
 
-.mobile-nav .nav-link:hover {
-  color: var(--accent);
+:is(.mobile-nav .nav-link, .mobile-nav .nav-link-mob):hover {
+color: var(--accent);
 }
 
 main {
