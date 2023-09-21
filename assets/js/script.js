@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function () {
 const nav = document.querySelector(".mobile-nav"),
     navMenuButton = document.querySelector(".nav-menu-btn"),
     navCloseButton = document.querySelector(".nav-close-btn"),
@@ -60,3 +61,4 @@ const donateCloseFunction = () => {
 }
 donateBtn.addEventListener("click", donateOpenFunction);
 donateClose.addEventListener("click", donateCloseFunction);
+});
