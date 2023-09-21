@@ -758,6 +758,10 @@ footer b {
       flex-direction: column;
     }
     
+    .up {
+      bottom: 25px;
+      right: 25px;
+    }
     .footer {
       flex-direction: column;
     }
