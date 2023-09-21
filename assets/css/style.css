@@ -346,6 +346,7 @@ main {
   align-items: center;
   height: auto;
   display: none;
+  z-index: 1;
 }
 
 .donation-box {
