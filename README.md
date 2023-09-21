@@ -1,7 +1,7 @@
 # Climate Change
 
-At ClimateChange Website, we are dedicated to driving positive change by addressing one of the most critical challenges of our time: climate change. Our website serves as a comprehensive platform designed to inform, inspire, and empower individuals, communities, and organizations to take meaningful action in the fight against climate change.
-Visit our quiz page to test your knowledge about climate change and sustainability. Challenge yourself and your friends with interactive quizzes that not only educate but also inspire action.
+At ClimateChange Website, I am dedicated to driving positive change by addressing one of the most critical challenges of our time: climate change. My website serves as a comprehensive platform designed to inform, inspire, and empower individuals, communities, and organizations to take meaningful action in the fight against climate change.
+Visit the quiz page to test your knowledge about climate change and sustainability. Challenge yourself and your friends with interactive quizzes that not only educate but also inspire action.
 
 The live link can be found here - [Climate Change](https://benni-github.github.io/project-02-climate-change/)
 
@@ -73,12 +73,12 @@ Table of Contents
   - As a returning user I want to be able to support the website and team working for this hazard by donation.
 
 ## Design
-The imagery and color scheme of the site were both given careful consideration to ensure they compliment each other. 
+The imagery and color scheme of the site were both given careful consideration to ensure they complement each other. 
 
 ### Imagery
-- The imagery used in the main page is very important. it is clearly shows the concept of the website.
-- All the images in the site desiged according to two themes, and by changing the theme of website the images change. 
-- Given that the quiz page relates to climate change crisis, the background image is designed dynamicly. and by refreshing the page it changes with a new related photo. 
+- The imagery used in the main page is very important. it is clearly showing the concept of the website.
+- All the images in the site designed according to two themes, and by changing the theme of website the images change. 
+- Given that the quiz page relates to climate change crisis, the background image is designed dynamically. and by refreshing the page it changes with a new related photo. 
 - Some small images for 'what can we do' section used according to subject of the item.
 
 ### Color Schemes
@@ -99,13 +99,13 @@ The color schemes of the site changes according to the selected theme.
 
 ### Fonts
 - The Inter font is the main font used throughout the main page. This font was imported via [Google Fonts](https://fonts.google.com/). 
-- For quiz page multiple fonts are used for difference purposes. the main font of the quiz page is Work San, and for the question and its options the used font is Times New Roman to make the appearance more formal. Also for the counter the suitable font which is used is Orbitron to show a better appearance of Time. for the result page Gills is the font I used.  
+- For quiz page multiple fonts are used for difference purposes. the main font of the quiz page is Work San, and for the question and its options the used font is Times New Roman to make the appearance more formal. Also, for the counter the suitable font which is used is Orbitron to show a better appearance of Time. for the result page Gills is the font I used.  
 - Sans Serif is used as a backup font, in case for any reason the main font isn't being imported into the site correctly.
 
 ### Layout
 #### The main page of the site is a single page with 7 sections:
   - Navigation
-  - First veiw of the site
+  - First view of the site
   - Descriptions about the Climate change in three sections
   - Description about what can we do
   - Contact area
@@ -151,7 +151,7 @@ Wireframes were produced using Balsamiq.
  - The theme button which can shift the theme from light mode to dark mode and vice versa. 
  ![Light mode of Landing Page](readme/light-mode.jpg)
  ![Dark mode of Landing Page](readme/dark-mode.jpg)
- - The main page include 2 buttons which open the quiz page and donation box.
+ - The main page includes 2 buttons which open the quiz page and donation box.
  ![Donate Box](readme/donate.jpg)
  - The contents of the website are put in three sections and for good appearance they are used by Read More/Read Less buttons to make a better UX. 
  ![Read More view](readme/readmore.jpg)
@@ -159,12 +159,12 @@ Wireframes were produced using Balsamiq.
 ### How to take the Quiz
   - As soon as the user enter to the quiz area the introduction page shows up and the user can read the purpose of the quiz and the instruction to take the quiz properly.
   - User can expand the contents to read each part.
-  - The Introduction box has two buttons to let the user choose between start the quiz or quit it. by choose quit a window appears to confirm the user's decision and by pressing the 'start quiz' button the question box shows up immediately.
+  - The Introduction box has two buttons to let the user choose between start the quiz or quit it. by choose to quit a window appears to confirm the user's decision and by pressing the 'start quiz' button the question box shows up immediately.
   ![Instructions](readme/about-quiz.jpg)
 
 ### Quiz Page
 ##### The Quiz page of the website has some features:
-  - The question box has time counter and it drops down from 20 to zero. 
+  - The question box has time counter, and it drops down from 20 to zero. 
   ![Quiz Page](readme/quiz.jpg)
   - User has one fortune to choose the right answer and after the choosing the answer the right answer change to green color and if the answer was wrong the option become red. 
  ![Wrong Answer](readme/wrong-answer.jpg)
@@ -182,7 +182,7 @@ Wireframes were produced using Balsamiq.
 
 The score of the quiz calculated according to percentage basis. and the user will get a quote while the see the scores according to below procedures:
 - For 100% : Excellent ! You answered all the questions correctly.
-- For equal or higher than 70% : Well done! You answered (right answers amount) of 10.
+- For equal or higher than 70% : Well Done! You answered (right answers amount) of 10.
 - For equal or higher than 40% : Good! You answered (right answers amount) of 10.
 - For equal or higher than 10% : Not bad! You answered (right answers amount) of 10.
 - If 0% : Sorry! You Couldn't answer any of the questions.
@@ -199,8 +199,8 @@ The score of the quiz calculated according to percentage basis. and the user wil
 - #### CSS
     - No errors were found when passing through the official W3C CSS Validator 
         - [W3C CSS Validator Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbenni-github.github.io%2Fproject-02-climate-change%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-- #### Javascript
-    - No errors or warnings were returned when passing through the the [JSHint Validator](https://jshint.com/)
+- #### JavaScript
+    - No errors or warnings were returned when passing through the [JSHint Validator](https://jshint.com/)
 
   ![JSHint Validator Results](readme/jsvalidator.jpg)
   
@@ -226,7 +226,7 @@ The score of the quiz calculated according to percentage basis. and the user wil
 - The Website was tested on Google Chrome, Firefox, Microsoft Edge, Safari browsers with no issues noted.
     
 ### Device Testing
-- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 8, iPhoneX and iPad to ensure responsiveness on various screen sizes in both portrait and landscape mode. The website performed as intended. The responsive design was also checked using Chrome developer tools across multiple devices with structural integrity holding for the various sizes.
+- The website was viewed on a variety of devices such as Desktop, Laptop, Samsung S23 Ultra, iPhone Xs max and iPad to ensure responsiveness on various screen sizes in both portrait and landscape mode. The website performed as intended. The responsive design was also checked using Chrome developer tools across multiple devices with structural integrity holding for the various sizes.
 - I also used the following website to test responsiveness:
     - [Responsinator](http://www.responsinator.com/?url=https%3A%2F%2Fbenni-github.github.io%2Fproject-02-climate-change%2F)
 
@@ -234,11 +234,11 @@ The score of the quiz calculated according to percentage basis. and the user wil
 
 #### SetTimeout() method on next question
 - I create a setTimeout function to pass the question to the next one after 2 seconds.
-- When user press the next question button whitin 2 seconds, it jumps twice.
+- When user press the next question button within 2 seconds, it jumps twice.
 - In this case I created another function to disable the next question button as soon as the answer selected.
 
 #### Result of 0% 
-- When the users dont answer any of the question the result shows 1%.
+- When the users don't answer any of the question the result shows 1%.
 - I created a conditional function to fix this problem.
 
 ### Known Bugs
@@ -283,10 +283,10 @@ The live link can be found here - [Climate Change](https://benni-github.github.i
 
 ## Cloning
 
-To clone this repository follow the below steps: 
+To clone this repository, follow the below steps: 
 
 1. Locate the repository at this link [Climate Change Repository](https://github.com/BENNI-GITHUB/project-02-climate-change).
-2. Under **'Code'**, see the different cloning options, HTTPS, SSH, and GitHub CLI. Click the prefered cloning option, and then copy the link provided. 
+2. Under **'Code'**, see the different cloning options, HTTPS, SSH, and GitHub CLI. Click the preferred cloning option, and then copy the link provided. 
 3. Open **Terminal**.
 4. In Terminal, change the current working directory to the desired location of the cloned directory.
 5. Type **'git clone'**, and then paste the URL copied from GitHub earlier. 
@@ -295,7 +295,7 @@ To clone this repository follow the below steps:
 ## Credits
 
 ### Content
-- The Questions are provided from [Unicef Quiz](readme/Climate-Change-Quiz-with-answers.pdf)
+- The Questions are provided from [UNICEF Quiz](readme/Climate-Change-Quiz-with-answers.pdf)
 - According to the questions I used ChatGPT to create the relevant contents for the main page. 
 
 ### Media
@@ -311,4 +311,4 @@ To clone this repository follow the below steps:
 - [Youtube](https://youtube.com)
 
 ## Acknowledgments
-My mentor Mr. Antonio Rodriguez for his support and advices.
+My mentor Mr. Antonio Rodriguez for his support and advice.
